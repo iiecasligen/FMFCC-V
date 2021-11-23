@@ -15,7 +15,7 @@ If you use the FMFCC-V dataset, please cite the following paper:
 
 	@inproceedings{XXX,
 	  title={A Large-Scale Challenging Asian Facial Dataset for DeepFake Forensics},
-	  author={IIECAS},
+	  author={IIE CAS},
 	  booktitle={XXX},
 	  year={2021}
 	}
@@ -24,7 +24,7 @@ or cite the online document:
 
 	@online{XXX,
 	  title ={A Large-Scale Challenging Asian Facial Dataset for DeepFake Forensics},
-	  author ={IIECAS},
+	  author ={IIE CAS},
 	  url ={https://github.com/iiecasligen/FMFCC-V/},
 	  year = {2001}
 	}
