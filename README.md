@@ -8,3 +8,15 @@ The FMFCC-V dataset is by far the largest publicly available Asian facial datase
 ### FMFCC-V Competition
 
 Based on the FMFCC-V dataset, we have successfuly hosted a benchmark competition, Video track of the first Fake Media Forensic Challenge of China Society of Image and Graphics (FMFCC-V). The FMFCC-V competition attracted over 400 contestants come from 60 different organizations. The monetary prizes provided a large incentive for these contestants to dedicate a lot of time and computational resources to optimize DeepFake detection algorithms for benchmarking. Compared with the DFDC competition organized by FaceBook, we only gather the predictions of test data rather than the source codes and models for protecting the intellectual property rights of contestants. Based on the results of the FMFCC-V competition, we provided a detailed analysis of top-performing submissions. The details will be presented in a paper. The homepage of FMFCC-V competition is http://fmfcc.net/.
+
+### Acknowledgements
+
+If you use or refer to the FMFCC-V dataset, please cite the folloeing paper:
+
+@inproceedings{cvpr2020-dang,
+	  title={On the Detection of Digital Face Manipulation},
+	  author={Hao Dang, Feng Liu, Joel Stehouwer, Xiaoming Liu, Anil Jain},
+	  booktitle={In Proceeding of IEEE Computer Vision and Pattern Recognition (CVPR 2020)},
+	  address={Seattle, WA},
+	  year={2020}
+	}
