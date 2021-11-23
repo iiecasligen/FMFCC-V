@@ -13,10 +13,9 @@ Based on the FMFCC-V dataset, we have successfuly hosted a benchmark competition
 
 If you use or refer to the FMFCC-V dataset, please cite the folloeing paper:
 
-@inproceedings{cvpr2020-dang,
-	  title={On the Detection of Digital Face Manipulation},
-	  author={Hao Dang, Feng Liu, Joel Stehouwer, Xiaoming Liu, Anil Jain},
-	  booktitle={In Proceeding of IEEE Computer Vision and Pattern Recognition (CVPR 2020)},
-	  address={Seattle, WA},
-	  year={2020}
+	@inproceedings{XXX,
+	  title={A Large-Scale Challenging Asian Facial Dataset for DeepFake Forensics},
+	  author={XXX XXX, XXX XXX, XXX XXX, XXX XXX, XXX XXX, XXX XXX},
+	  booktitle={XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX},
+	  year={2021}
 	}
