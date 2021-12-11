@@ -10,7 +10,7 @@ The FMFCCV dataset is by far the first and the largest public available Asian da
 
 The complete FMFCC-V dataset can be downloaded from https://pan.baidu.com/s/xxxxxxxxxxxxxxxxxxxxxx (Password: xxxx).
 
-A part of FMFCC-V dataset used in the FMFCC-V competition can be downloaded from https://pan.baidu.com/s/1yaBcMP7ckvVI8KGf_Avk7Q (Password: 2021).
+A part of FMFCC-V dataset can be downloaded from https://pan.baidu.com/s/1yaBcMP7ckvVI8KGf_Avk7Q (Password: 2021).
 
 The structure of FMFCC-V dataset is:
 ```
