@@ -132,7 +132,6 @@ FMFCC-V-Competition
 |---videos_30000_part3.zip
 |---videos_30000_part4.zip
 ```
-where `metadata.json` is the
 
 ## FMFCC-V Competition
 
