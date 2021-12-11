@@ -9,8 +9,12 @@ The FMFCCV dataset is by far the first and the largest public available Asian da
 
 The structure of a part of FMFCC-V dataset is:
 
-
-
+	FMFCC-V-Competition
+	|--metadata.json
+	|--videos_30000_part1.zip
+	|--videos_30000_part2.zip
+	|--videos_30000_part3.zip
+	|--videos_30000_part4.zip
 
 ## FMFCC-V Competition
 
