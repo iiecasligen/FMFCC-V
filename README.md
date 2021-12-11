@@ -142,8 +142,9 @@ FMFCC-V-Competition
 
 ![FMFCC-V-Competition](images/fig02.jpg)
 
-Based on the FMFCC-V dataset, we have successfuly hosted a benchmark competition named Video track of the first Fake Media Forensic Challenge of China Society of Image and Graphics (FMFCC-V). The FMFCC-V competition attracted over 400 contestants who come from 60 organizations. The monetary prizes provided a large incentive for these contestants to dedicate a lot of time and computational resources to optimize DeepFake detection algorithms for benchmarking. Compared with the DFDC competition organized by FaceBook, we only gather the metadata of predictions rather than the source codes and models for protecting the intellectual property rights of the contestants. Based on the result of the FMFCC-V competition, we provided a detailed analysis of top submissions. The details will be presented in a paper. The homepage of FMFCC-V competition is
-http://fmfcc.net.
+Based on the FMFCC-V dataset, we have successfuly hosted a benchmark competition named Video track of the first Fake Media Forensic Challenge of China Society of Image and Graphics (FMFCC-V). The FMFCC-V competition attracted over 400 contestants who come from 60 organizations. The monetary prizes provided a large incentive for these contestants to dedicate a lot of time and computational resources to optimize DeepFake detection algorithms for benchmarking. Compared with the DFDC competition organized by FaceBook, we only gather the metadata of predictions rather than the source codes and models for protecting the intellectual property rights of the contestants. Based on the result of the FMFCC-V competition, we provided a detailed analysis of top submissions. The details will be presented in a paper.
+
+The homepage of FMFCC-V competition is http://fmfcc.net.
 
 ## Acknowledgements
 
