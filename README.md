@@ -7,23 +7,108 @@ FMFCC-V: A Large-Scale Challenging Asian Dataset for DeepFake Detection
 
 The FMFCCV dataset is by far the first and the largest public available Asian dataset for DeepFake Detection. There are in total 38102 DeepFake videos and 44290 pristine videos, corresponding more than 23 million frames, in the FMFCC-V dataset. The source videos are collected from 83 paid individuals speaking in a variety of conditions for roughly 40 minutes each. All individuals are Asians and give consents to the use and manipulation of their faces by signing a formal agreement. The DeepFake videos are generated using four kinds of most popular face swapping methods for roughly 16 minutes each before post processing. In addition, we introduced diversity into both DeepFake videos and pristine videos through deliberate addition of twelve kinds of perturbations, simulating real world scenarios. Based on the FMFCC-V dataset and other existing DeepFake datasets, we benchmark video-level results of six representative DeepFake detection methods. The complete FMFCC-V dataset and the detailed analysis will be presented in a paper. A part of FMFCC-V dataset used in the FMFCC-V competition can be downloaded from https://pan.baidu.com/s/1yaBcMP7ckvVI8KGf_Avk7Q (Password: 2021).
 
-The structure of a part of FMFCC-V dataset is:
+The structure of FMFCC-V dataset is:
+```
+FMFCC-V
+|---Long_Version
+|   |---fake
+|   |   |---FMFCC-V+Long_Version+fake_part00.rar
+|   |   |---FMFCC-V+Long_Version+fake_part01.rar
+|   |   |---FMFCC-V+Long_Version+fake_part02.rar
+|   |   |---FMFCC-V+Long_Version+fake_part03.rar
+|   |   |---FMFCC-V+Long_Version+fake_part04.rar
+|   |   |---FMFCC-V+Long_Version+fake_part05.rar
+|   |   |---FMFCC-V+Long_Version+fake_part06.rar
+|   |   |---FMFCC-V+Long_Version+fake_part07.rar
+|   |---real
+|   |   |---FMFCC-V+Long_Version+real_part00.rar
+|   |   |---FMFCC-V+Long_Version+real_part01.rar
+|---Short_Version
+|   |---fake
+|   |   |---FMFCC-V+Short_Version+fake_part00.rar
+|   |   |---FMFCC-V+Short_Version+fake_part01.rar
+|   |   |---FMFCC-V+Short_Version+fake_part02.rar
+|   |   |---FMFCC-V+Short_Version+fake_part03.rar
+|   |   |---FMFCC-V+Short_Version+fake_part04.rar
+|   |   |---FMFCC-V+Short_Version+fake_part05.rar
+|   |   |---FMFCC-V+Short_Version+fake_part06.rar
+|   |   |---FMFCC-V+Short_Version+fake_part07.rar
+|   |   |---FMFCC-V+Short_Version+fake_part08.rar
+|   |   |---FMFCC-V+Short_Version+fake_part09.rar
+|   |   |---FMFCC-V+Short_Version+fake_part10.rar
+|   |   |---FMFCC-V+Short_Version+fake_part11.rar
+|   |   |---FMFCC-V+Short_Version+fake_part12.rar
+|   |---fake_aug
+|   |   |---FMFCC-V+Short_Version+fake_aug_part00.rar
+|   |   |---FMFCC-V+Short_Version+fake_aug_part01.rar
+|   |   |---FMFCC-V+Short_Version+fake_aug_part02.rar
+|   |   |---FMFCC-V+Short_Version+fake_aug_part03.rar
+|   |   |---FMFCC-V+Short_Version+fake_aug_part04.rar
+|   |   |---FMFCC-V+Short_Version+fake_aug_part05.rar
+|   |   |---FMFCC-V+Short_Version+fake_aug_part06.rar
+|   |   |---FMFCC-V+Short_Version+fake_aug_part07.rar
+|   |   |---FMFCC-V+Short_Version+fake_aug_part08.rar
+|   |   |---FMFCC-V+Short_Version+fake_aug_part09.rar
+|   |   |---FMFCC-V+Short_Version+fake_aug_part10.rar
+|   |   |---FMFCC-V+Short_Version+fake_aug_part11.rar
+|   |   |---FMFCC-V+Short_Version+fake_aug_part12.rar
+|   |---real
+|   |   |---FMFCC-V+Short_Version+real_part00.rar
+|   |   |---FMFCC-V+Short_Version+real_part01.rar
+|   |   |---FMFCC-V+Short_Version+real_part02.rar
+|   |   |---FMFCC-V+Short_Version+real_part03.rar
+|   |   |---FMFCC-V+Short_Version+real_part04.rar
+|   |   |---FMFCC-V+Short_Version+real_part05.rar
+|   |   |---FMFCC-V+Short_Version+real_part06.rar
+|   |   |---FMFCC-V+Short_Version+real_part07.rar
+|   |   |---FMFCC-V+Short_Version+real_part08.rar
+|   |   |---FMFCC-V+Short_Version+real_part09.rar
+|   |   |---FMFCC-V+Short_Version+real_part10.rar
+|   |   |---FMFCC-V+Short_Version+real_part11.rar
+|   |   |---FMFCC-V+Short_Version+real_part12.rar
+|   |   |---FMFCC-V+Short_Version+real_part13.rar
+|   |   |---FMFCC-V+Short_Version+real_part14.rar
+|   |   |---FMFCC-V+Short_Version+real_part15.rar
+|   |   |---FMFCC-V+Short_Version+real_part16.rar
+|   |   |---FMFCC-V+Short_Version+real_part17.rar
+|   |   |---FMFCC-V+Short_Version+real_part18.rar
+|   |   |---FMFCC-V+Short_Version+real_part19.rar
+|   |   |---FMFCC-V+Short_Version+real_part20.rar
+|   |   |---FMFCC-V+Short_Version+real_part21.rar
+|   |   |---FMFCC-V+Short_Version+real_part22.rar
+|   |---real_aug
+|   |   |---FMFCC-V+Short_Version+real_aug_part00.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part01.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part02.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part03.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part04.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part05.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part06.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part07.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part08.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part09.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part10.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part11.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part12.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part13.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part14.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part15.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part16.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part17.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part18.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part19.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part20.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part21.rar
+|   |   |---FMFCC-V+Short_Version+real_aug_part22.rar
+```
+The structure of a part of FMFCC-V dataset used in the FMFCC-V competition is:
 ```
 FMFCC-V-Competition
-|--metadata.json
-|--videos_30000_part1.zip
-|--videos_30000_part2.zip
-|--videos_30000_part3.zip
-|--videos_30000_part4.zip
-```
-The structure of a part of FMFCC-V dataset is:
-```
-FMFCC-V-Competition
-|--metadata.json
-|--videos_30000_part1.zip
-|--videos_30000_part2.zip
-|--videos_30000_part3.zip
-|--videos_30000_part4.zip
+|---metadata.json
+|---videos_30000_part1.zip
+|---videos_30000_part2.zip
+|---videos_30000_part3.zip
+|---videos_30000_part4.zip
 ```
 where `metadata.json` is the
 
