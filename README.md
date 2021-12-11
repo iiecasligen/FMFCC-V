@@ -1,5 +1,5 @@
 ## FMFCC-V
-A Large-Scale Challenging Asian Facial Dataset for DeepFake Forensics
+FMFCC-V: A Large-Scale Challenging Asian Dataset for DeepFake Detection
 
 ### FMFCC-V Dataset
 
