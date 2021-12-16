@@ -1,6 +1,6 @@
 # FMFCC-V
 
-FMFCC-V: A Large-Scale Challenging Asian Dataset for DeepFake Detection
+FMFCC-V: An Asian Large-Scale Challenging Dataset for DeepFake Detection
 
 ## FMFCC-V Dataset
 
@@ -151,7 +151,7 @@ The homepage of FMFCC-V competition is http://fmfcc.net.
 If you use the FMFCC-V dataset, please cite the following paper:
 ```
 @inproceedings{XXX,
-  title = {FMFCC-V: A Large-Scale Challenging Asian Dataset for DeepFake Detection},
+  title = {FMFCC-V: An Asian Large-Scale Challenging Dataset for DeepFake Detection},
   author = {Gen Li, Xianfeng Zhao, Yun Cao, Pengfei Pei, Jinchuan Li, Zeyu Zhang},
   booktitle = {XXX},
   year = {2021}
@@ -160,7 +160,7 @@ If you use the FMFCC-V dataset, please cite the following paper:
 or cite the online document:
 ```
 @online{XXX,
-  title = {FMFCC-V: A Large-Scale Challenging Asian Dataset for DeepFake Detection},
+  title = {FMFCC-V: A Asian Large-Scale Challenging Dataset for DeepFake Detection},
   author = {Gen Li, Xianfeng Zhao, Yun Cao, Pengfei Pei, Jinchuan Li, Zeyu Zhang},
   url = {https://github.com/iiecasligen/FMFCC-V/},
   year = {2021}
