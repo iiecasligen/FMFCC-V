@@ -115,20 +115,20 @@ For the real video of `001.mp4` in `FMFCC-V+Long_Version+real_part00.rar`:
 For the fake video of `014_006_007.mp4` in `FMFCC-V+Long_Version+fake_part00.rar`:
 ```
 014: index of fake video
-006: index of target video of fake video 014
-007: index of source video of fake video 014
+006: index of target video of this fake video
+007: index of source video of this fake video 014
 ```
 For the real video of `001_003.mp4` in `FMFCC-V+Short_Version+real_part00.rar` and `FMFCC-V+Short_Version+real_aug_part00.rar`:
 ```
 001: index of real video
-003: number of real video 001
+003: number of this real video
 ```
 For the fake video of `002_001_006_081.mp4` in `FMFCC-V+Short_Version+fake_part00.rar` and `FMFCC-V+Short_Version+fake_aug_part00.rar`:
 ```
 002: index of fake video
-001: index of target video of fake video 002
-006: index of source video of fake video 002
-081: number of fake video 002
+001: index of target video of this fake video
+006: index of source video of this fake video
+081: number of this fake video
 ```
 The structure of a part of FMFCC-V dataset used in the FMFCC-V competition is:
 ```
