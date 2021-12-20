@@ -150,7 +150,7 @@ The detailed analysis is presented in our paper of https://xxxxxxxxxxxxxxxxxxxxx
 
 The homepage of FMFCC-V competition is http://fmfcc.net.
 
-## Acknowledgements
+## Citations
 
 If you use the FMFCC-V dataset, please cite the following paper:
 ```
