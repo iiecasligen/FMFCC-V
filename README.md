@@ -153,20 +153,5 @@ The homepage of FMFCC-V competition is http://fmfcc.net.
 ## Citations
 
 If you use the FMFCC-V dataset, please cite the following paper:
-```
-@inproceedings{XXX,
-  title = {FMFCC-V: An Asian Large-Scale Challenging Dataset for DeepFake Detection},
-  author = {Gen Li, Xianfeng Zhao, Yun Cao, Pengfei Pei, Jinchuan Li, Zeyu Zhang},
-  booktitle = {XXX},
-  year = {2021}
-}
-```
-or cite the online document:
-```
-@online{XXX,
-  title = {FMFCC-V: An Asian Large-Scale Challenging Dataset for DeepFake Detection},
-  author = {Gen Li, Xianfeng Zhao, Yun Cao, Pengfei Pei, Jinchuan Li, Zeyu Zhang},
-  url = {https://github.com/iiecasligen/FMFCC-V/},
-  year = {2021}
-}
-```
+
+Gen Li, Xianfeng Zhao, Yun Cao, Pengfei Pei, Jinchuan Li, and Zeyu Zhang. 2022. FMFCC-V: An Asian Large-Scale Challenging Dataset for DeepFake Detection. In Proceedings of the 2022 ACM Workshop on Information Hiding and Multimedia Security (IH&MMSec ’22), June 27–28, 2022, Santa Barbara, CA, USA. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3531536.3532946
