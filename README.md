@@ -8,7 +8,7 @@ FMFCC-V: An Asian Large-Scale Challenging Dataset for DeepFake Detection
 
 The FMFCC-V dataset is by far the first and the largest public available Asian dataset for DeepFake Detection. There are in total 38102 DeepFake videos and 44290 pristine videos, corresponding more than 23 million frames, in the FMFCC-V dataset. The source videos are collected from 83 paid individuals speaking in a variety of conditions for roughly 40 minutes each. All individuals are Asians and give consents to the use and manipulation of their faces by signing a formal agreement. The DeepFake videos are generated using four kinds of most popular face swapping methods for roughly 16 minutes each before post processing. In addition, we introduced diversity into both DeepFake videos and pristine videos through deliberate addition of twelve kinds of perturbations, simulating real world scenarios. Based on the FMFCC-V dataset and other existing DeepFake datasets, we benchmark video-level results of six representative DeepFake detection methods.
 
-The detailed analysis is presented in our paper of https://xxxxxxxxxxxxxxxxxxxxxxxxxxxx.
+The detailed analysis is presented in our paper of https://doi.org/10.1145/3531536.3532946
 
 The complete FMFCC-V dataset can be download from https://pan.baidu.com/s/1wF87JgSbX_buqsc4eX-2FQ (Password: Data).
 
@@ -146,9 +146,9 @@ FMFCC-V-Competition
 
 Based on the FMFCC-V dataset, we have successfuly hosted a benchmark competition named Video track of the first Fake Media Forensic Challenge of China Society of Image and Graphics (FMFCC-V). The FMFCC-V competition attracted over 400 contestants who come from 60 organizations. The monetary prizes provided a large incentive for these contestants to dedicate a lot of time and computational resources to optimize DeepFake detection algorithms for benchmarking. Compared with the DFDC competition organized by FaceBook, we only gather the metadata of predictions rather than the source codes and models for protecting the intellectual property rights of the contestants. Based on the result of the FMFCC-V competition, we provided a detailed analysis of top submissions.
 
-The detailed analysis is presented in our paper of [FMFCC-V](https://doi.org/10.1145/3531536.3532946)
+The detailed analysis is presented in our paper of https://doi.org/10.1145/3531536.3532946
 
-The homepage of FMFCC-V competition is http://fmfcc.net.
+The homepage of FMFCC-V competition is http://fmfcc.net
 
 ## Citations
 
